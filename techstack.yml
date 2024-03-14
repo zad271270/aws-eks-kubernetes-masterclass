@@ -1,0 +1,440 @@
+repo_name: zad271270/aws-eks-kubernetes-masterclass
+report_id: fec8ea426e4341ba85f5a15a1b7f63b2
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T14:31:56+00:00'
+requested_by: stacksimplify
+provider: github
+branch: master
+detected_tools_count: 33
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass
+  detection_source: Repo Metadata
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  detection_source: others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/01-helloworld-service/src/main/resources/application.properties
+  detection_source: others/code/springboot-kubernetes/01-helloworld-service/src/main/resources/application.properties
+- name: com.github.jknack:handlebars
+  description: Logic-less and semantic templates with Java
+  version: 4.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: com.itextpdf:itextpdf
+  description: IText, a free Java-PDF library
+  version: 5.5.13
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: com.opencsv:opencsv
+  description: A simple library for reading and writing CSV in Java
+  version: '4.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: com.vladsch.flexmark:flexmark-all
+  description: Flexmark-java core and all extension modules and converters
+  version: 0.40.16
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: commons-dbcp:commons-dbcp
+  description: Commons Database Connection Pooling
+  version: '1.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: '2.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal and Improper Input Validation in Apache Commons IO
+    cve_id: CVE-2021-29425
+    cve_url: https://github.com/advisories/GHSA-gwrp-pvrq-jmwv
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: '2.7'
+- name: io.springfox:springfox-swagger-ui
+  description: JSON API documentation for spring based applications
+  version: 2.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: io.springfox:springfox-swagger2
+  description: JSON API documentation for spring based applications
+  version: 2.9.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: javax.mail:javax.mail-api
+  version: 1.5.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.4.7
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: mysql:mysql-connector-java
+  description: MySQL JDBC Type 4 driver
+  license: GPL-3.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.apache.commons:commons-dbcp2
+  description: Apache Commons DBCP software implements Database Connection Pooling
+  version: 2.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.apache.commons:commons-text
+  description: Apache Commons Text is a library focused on algorithms working on strings
+  version: '1.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in Apache POI
+    cve_id: CVE-2017-12626
+    cve_url: https://github.com/advisories/GHSA-523c-xh4g-mh5m
+    detected_date: Aug 22
+    severity: high
+    first_patched: '3.17'
+  - name: 'Improper Restriction of XML External Entity Reference in Apache POI '
+    cve_id: CVE-2019-12415
+    cve_url: https://github.com/advisories/GHSA-9jwc-q6j3-8g9g
+    detected_date: Jun 29
+    severity: moderate
+    first_patched: 4.1.1
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.apache.poi:poi-ooxml-schemas
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.15'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.json:json
+  description: JSON is a light-weight, language independent, data interchange format
+  license: JSON
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  detection_source: others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-actuator
+  description: Starter for using Spring Boot's Actuator which provides production
+    ready features to help you monitor and manage your application
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  detection_source: others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  detection_source: others/code/springboot-kubernetes/01-helloworld-service/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework.security:spring-security-jwt
+  description: Spring Security JWT is a small utility library for encoding and decoding
+    JSON Web Tokens
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
+- name: org.springframework:spring-context-support
+  description: Spring Context Support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/zad271270/aws-eks-kubernetes-masterclass/blob/master/others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  detection_source: others/code/springboot-kubernetes/02-usermanagement-service/bin/pom.xml
+  last_updated_by: Kalyan Reddy Daida
+  last_updated_on: 2020-08-27 04:57:54.000000000 Z
